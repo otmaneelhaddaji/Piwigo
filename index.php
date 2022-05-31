@@ -68,6 +68,7 @@ if (count($page['items']) > $page['nb_image_page'])
     );
 }
 
+
 $template->assign('thumb_navbar', $page['navigation_bar'] );
 
 // caddie filling :-)
